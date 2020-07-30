@@ -1,0 +1,105 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+body{
+    background-color: tomato;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+   
+}
+.login-wrapper{
+    /* background-color: blue; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:100px;
+}
+.view-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:10px;
+}
+
+.form-wrapper{
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    height: auto;
+    width: 30em;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px black;
+}
+.content-wrapper{
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    height: auto;
+    max-width: fit-content;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px black;
+}
+.table-wrapper{
+    border: none;
+    font-size: 20px;
+    color: rgb(33, 71, 105);
+    background-color: transparent;
+}
+
+.content-table-wrapper {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+.content-table-wrapper td, .content-table-wrapper th {
+border: 1px solid #ddd;
+padding: 8px;
+}
+
+.content-table-wrapper tr:nth-child(even){background-color: #f2f2f2;}
+
+.content-table-wrapper tr:hover {background-color: #ddd;}
+
+.content-table-wrapper th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+.button-wrapper{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.jumbotron {
+    color: rgb(33, 71, 105);
+    background-color: transparent;
+    text-align: center;
+    font-weight: 200px;
+    font-size: 30px;
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+     }
+}
